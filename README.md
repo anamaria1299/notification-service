@@ -52,3 +52,9 @@ This will start the required Kafka services in the background.
 or use the IDE of your preference.
 
 And that’s it! The service will now be running and ready to process notifications.
+
+## Evidence
+
+
+https://github.com/user-attachments/assets/38b18030-061b-447b-a80f-fdfeed147055
+
