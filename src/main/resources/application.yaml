@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: notification-system
+  kafka:
+    bootstrap-servers: localhost:9092
+    in-game-notifier-topic: helios.io.notification.in-game
+    social-notifier-topic: helios.io.notification.social
+    max-retries: 5
+    retry-interval-millis: 200
+
+notification-system:
+  in-game:
+    listener:
+      level-up-topic: helios.io.event.in-game.level-up
+      challenge-completed-topic: helios.io.event.in-game.challenge-completed
+      item-acquired-topic: helios.io.event.in-game.item-acquired
+      player-vs-player-topic: helios.io.event.in-game.player-vs-player
+      group-id: in-game
+  social:
+    listener:
+      friend-request-topic: helios.io.event.social.friend-request
+      friend-accepted-topic: helios.io.event.social.friend-accepted
+      new-follower-topic: helios.io.event.social.new-follower
+      group-id: social

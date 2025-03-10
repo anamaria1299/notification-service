@@ -1,0 +1,54 @@
+README.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Archivos compilados
+*.class
+
+# Salida de Gradle
+.gradle/
+build/
+
+# Archivos generados por IntelliJ IDEA
+*.iml
+*.ipr
+*.iws
+.idea/
+out/
+
+# Archivos de configuración de Gradle Wrapper
+gradle/wrapper/gradle-wrapper.jar
+
+# Archivos de logs y crash reports
+*.log
+hs_err_pid*
+
+# Paquetes generados
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Directorios de Maven (por si acaso)
+target/
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Kotlin ###
+.kotlin
